@@ -1,0 +1,9 @@
+{
+  "publication_date": "2026-10-05",
+  "model_files_identical_to_v9": true,
+  "model_file_count": 19,
+  "package_audit": "PASS",
+  "clean_rebuild": "PASS",
+  "account_metadata_removed_from_source": true,
+  "original_geometry_preserved": true
+}

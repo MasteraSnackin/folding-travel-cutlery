@@ -1,0 +1,748 @@
+{
+  "units": "mm",
+  "version": "v9 prototype",
+  "source_sha256": "e4a2f082ae91ac8bb5b922bfc53b9d64b8aa0b38ca45b3729d1d977a11836f7b",
+  "parts": {
+    "fork": {
+      "path": "print/fork.stl",
+      "sha256": "fc68bcd56dd4dae1f2d1c4132ee9ebed59b89e66826c5ab3cf5e63f183871e44",
+      "reload": {
+        "vertices": 7796,
+        "triangles": 15592,
+        "bounds_mm": [
+          [
+            -17.49979591369629,
+            -17.5,
+            0.0
+          ],
+          [
+            17.499799728393555,
+            72.6448974609375,
+            5.199999809265137
+          ]
+        ],
+        "extents_mm": [
+          34.999595642089844,
+          90.1448974609375,
+          5.199999809265137
+        ],
+        "volume_mm3": 6622.834236197326,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": 0,
+        "invalid_edge_count": 0
+      }
+    },
+    "knife": {
+      "path": "print/knife.stl",
+      "sha256": "858fb3acd1c7a68e20ff100ff1a9f5801b8b2c60659806302991c73219001a98",
+      "reload": {
+        "vertices": 8602,
+        "triangles": 17204,
+        "bounds_mm": [
+          [
+            -17.499591827392578,
+            -17.49839973449707,
+            0.0
+          ],
+          [
+            17.496639251708984,
+            72.63473510742188,
+            5.199999809265137
+          ]
+        ],
+        "extents_mm": [
+          34.99623107910156,
+          90.13313484191895,
+          5.199999809265137
+        ],
+        "volume_mm3": 6127.712785442804,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": 0,
+        "invalid_edge_count": 0
+      }
+    },
+    "spoon": {
+      "path": "print/spoon.stl",
+      "sha256": "c656a25075e9e85fc736d946a927cd101abe8cc00c109b990458b6b37fa7ea2b",
+      "reload": {
+        "vertices": 17746,
+        "triangles": 35492,
+        "bounds_mm": [
+          [
+            -18.11971664428711,
+            -17.4999942779541,
+            0.0
+          ],
+          [
+            17.499835968017578,
+            72.57328033447266,
+            7.0
+          ]
+        ],
+        "extents_mm": [
+          35.61955261230469,
+          90.07327461242676,
+          7.0
+        ],
+        "volume_mm3": 9269.396752141163,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": 0,
+        "invalid_edge_count": 0
+      }
+    },
+    "cover": {
+      "path": "print/cover.stl",
+      "sha256": "5375d685f60f26ea7710c136d37e431fa870d9393e85c18ef52d5edfb4deb2f7",
+      "reload": {
+        "vertices": 1630,
+        "triangles": 3272,
+        "bounds_mm": [
+          [
+            -26.0,
+            0.0,
+            0.0
+          ],
+          [
+            26.0,
+            25.75,
+            92.5999984741211
+          ]
+        ],
+        "extents_mm": [
+          52.0,
+          25.75,
+          92.5999984741211
+        ],
+        "volume_mm3": 16483.58066771431,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": -6,
+        "invalid_edge_count": 0
+      }
+    },
+    "barrel": {
+      "path": "print/barrel.stl",
+      "sha256": "f76c8e343dcf2e1395e027f4b68fefefe52cf74a91709394888c134403e8551c",
+      "reload": {
+        "vertices": 65368,
+        "triangles": 130748,
+        "bounds_mm": [
+          [
+            -24.0,
+            -18.924657821655273,
+            0.0
+          ],
+          [
+            24.0,
+            18.924657821655273,
+            27.0
+          ]
+        ],
+        "extents_mm": [
+          48.0,
+          37.84931564331055,
+          27.0
+        ],
+        "volume_mm3": 9718.537290029772,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": -6,
+        "invalid_edge_count": 0
+      }
+    },
+    "cap": {
+      "path": "print/cap.stl",
+      "sha256": "2041c8170dcc64e8bc60145f616628c3aee1c1346125035ae6f86ff3ac3e30c3",
+      "reload": {
+        "vertices": 13366,
+        "triangles": 26732,
+        "bounds_mm": [
+          [
+            -19.0,
+            -19.0,
+            0.0
+          ],
+          [
+            19.0,
+            19.0,
+            22.200000762939453
+          ]
+        ],
+        "extents_mm": [
+          38.0,
+          38.0,
+          22.200000762939453
+        ],
+        "volume_mm3": 10127.540679305705,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": 0,
+        "invalid_edge_count": 0
+      }
+    },
+    "washer": {
+      "path": "print/washer.stl",
+      "sha256": "8fc5798ad39318b43f3c545f1073df178d61e7ee47b7b1a18de3574a1befefad",
+      "reload": {
+        "vertices": 1266,
+        "triangles": 2532,
+        "bounds_mm": [
+          [
+            -17.5,
+            -17.5,
+            0.0
+          ],
+          [
+            17.5,
+            17.5,
+            2.4000000953674316
+          ]
+        ],
+        "extents_mm": [
+          35.0,
+          35.0,
+          2.4000000953674316
+        ],
+        "volume_mm3": 1181.9586026309942,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": 0,
+        "invalid_edge_count": 0
+      }
+    },
+    "keeper": {
+      "path": "print/keeper.stl",
+      "sha256": "1ce1a5b0a5285c65c8d9a787a11ef1e3fd194d9197e9fe68cfb401777cf60687",
+      "reload": {
+        "vertices": 24027,
+        "triangles": 48050,
+        "bounds_mm": [
+          [
+            -6.800000190734863,
+            -6.800000190734863,
+            0.0
+          ],
+          [
+            6.800000190734863,
+            6.800000190734863,
+            30.0
+          ]
+        ],
+        "extents_mm": [
+          13.600000381469727,
+          13.600000381469727,
+          30.0
+        ],
+        "volume_mm3": 1537.1259104284002,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": 2,
+        "invalid_edge_count": 0
+      }
+    },
+    "cover_key": {
+      "path": "print/cover_key.stl",
+      "sha256": "5df7a5ece636cb39dcc2d10422374746c44b2625cb3e4bd240faf157527d008e",
+      "reload": {
+        "vertices": 258,
+        "triangles": 512,
+        "bounds_mm": [
+          [
+            -30.799999237060547,
+            -1.0,
+            0.0
+          ],
+          [
+            27.600000381469727,
+            7.0,
+            2.700000047683716
+          ]
+        ],
+        "extents_mm": [
+          58.39999961853027,
+          8.0,
+          2.700000047683716
+        ],
+        "volume_mm3": 459.05223167117856,
+        "watertight": true,
+        "consistent_winding": true,
+        "euler_number": 2,
+        "invalid_edge_count": 0
+      }
+    }
+  },
+  "print_transforms": {
+    "fork": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "knife": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "spoon": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "cover": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        8.4
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        76.6
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "barrel": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        6.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "cap": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        -1.2246467991473532e-16,
+        0.0
+      ],
+      [
+        0.0,
+        1.2246467991473532e-16,
+        -1.0,
+        25.600000000000005
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "washer": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "keeper": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        -1.2246467991473532e-16,
+        0.0
+      ],
+      [
+        0.0,
+        1.2246467991473532e-16,
+        -1.0,
+        25.6
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "cover_key": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.123233995736766e-17,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        6.123233995736766e-17,
+        11.1
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "ring_thickness_mm": {
+    "fork": 4.0,
+    "knife": 4.0,
+    "spoon": 5.8,
+    "washer": 2.4
+  },
+  "lug_centres_radius_mm": 14.75,
+  "lug_footprint_mm": [
+    2.6,
+    4.0
+  ],
+  "root_fillet_mm": 0.25,
+  "tab_height_mm": 1.2,
+  "pocket_side_clearance_mm": 0.25,
+  "spoon_floor_mm": 1.8,
+  "stack_height_mm": 16.2,
+  "barrel_height_mm": 21.0,
+  "barrel_diameter_mm": 23.6,
+  "release_mm": 4.2,
+  "release_turns": 1.6800000000000002,
+  "tested_cap_limit_mm": 4.6,
+  "nominal_keeper_stop_mm": 4.61,
+  "closed_pivot_height_mm": 31.6,
+  "keeper_remove": "clockwise",
+  "cover_key_release": "push right0.8mm, quarter-turn, withdrawleft",
+  "parts_count": 9,
+  "fork_repair": {
+    "method": "Subtract two circular through-thickness reliefs at self-touching slot roots",
+    "relief_radius_mm": 0.8,
+    "relief_depth_below_touching_edge_mm": 0.0075,
+    "original_defect_edges_mm": [
+      [
+        [
+          5.31472015,
+          28.0363369,
+          2.0
+        ],
+        [
+          5.31472015,
+          28.0363369,
+          -2.0
+        ]
+      ],
+      [
+        [
+          -5.31472015,
+          28.0363369,
+          2.0
+        ],
+        [
+          -5.31472015,
+          28.0363369,
+          -2.0
+        ]
+      ]
+    ],
+    "removed_volume_mm3": 0.04652145283677679,
+    "removed_volume_percent": 0.0007006078553191851,
+    "removed_bounds_mm": [
+      -5.628236638794206,
+      28.028836899999998,
+      -2.0,
+      5.628240994729251,
+      28.093561718645322,
+      2.0
+    ],
+    "remaining_solid_count": 1,
+    "before": {
+      "vertices": 6190,
+      "triangles": 12388,
+      "bounds_mm": [
+        [
+          -17.4997978,
+          -45.0724487,
+          -2.0
+        ],
+        [
+          17.4997978,
+          45.0724487,
+          2.0
+        ]
+      ],
+      "extents_mm": [
+        34.9995956,
+        90.1448974,
+        4.0
+      ],
+      "volume_mm3": 6640.1557566868,
+      "watertight": false,
+      "consistent_winding": true,
+      "euler_number": -2,
+      "invalid_edge_count": 2
+    },
+    "after": {
+      "vertices": 6426,
+      "triangles": 12852,
+      "bounds_mm": [
+        [
+          -17.4997978,
+          -45.0724487,
+          -2.0
+        ],
+        [
+          17.4997978,
+          45.0724487,
+          2.0
+        ]
+      ],
+      "extents_mm": [
+        34.9995956,
+        90.1448974,
+        4.0
+      ],
+      "volume_mm3": 6640.109235233961,
+      "watertight": true,
+      "consistent_winding": true,
+      "euler_number": 0,
+      "invalid_edge_count": 0
+    }
+  },
+  "collisions_mm3": {
+    "folded": {},
+    "fork": {},
+    "knife": {},
+    "spoon": {}
+  },
+  "contact_rounding": {
+    "folded": [],
+    "fork": [],
+    "knife": [],
+    "spoon": []
+  },
+  "layout_mm": {
+    "fork": [
+      27.49979663,
+      27.50000083,
+      0.0
+    ],
+    "knife": [
+      70.49918746,
+      27.49840019,
+      0.0
+    ],
+    "spoon": [
+      114.11554359,
+      27.499994729999997,
+      0.0
+    ],
+    "cover": [
+      165.6153792,
+      10.0,
+      0.0
+    ],
+    "barrel": [
+      34.0,
+      127.0695552,
+      0.0
+    ],
+    "cap": [
+      85.0,
+      127.1448974,
+      0.0
+    ],
+    "washer": [
+      129.5,
+      125.6448974,
+      0.0
+    ],
+    "keeper": [
+      161.8,
+      114.9448974,
+      0.0
+    ],
+    "cover_key": [
+      207.4,
+      109.1448974,
+      0.0
+    ]
+  },
+  "folded_with_cover_bounds_mm": [
+    [
+      -30.8,
+      -19.0,
+      -8.4
+    ],
+    [
+      27.6,
+      76.6,
+      25.6
+    ]
+  ],
+  "mechanism_test_layout_mm": {
+    "test_fork": [
+      27.49979663,
+      27.50000083,
+      0.0
+    ],
+    "test_knife": [
+      70.49918746,
+      27.49840019,
+      0.0
+    ],
+    "test_spoon": [
+      113.49571629,
+      27.499994729999997,
+      0.0
+    ],
+    "barrel": [
+      162.9955519,
+      28.9246578,
+      0.0
+    ],
+    "cap": [
+      213.9955519,
+      29.000000000000004,
+      0.0
+    ],
+    "washer": [
+      27.5,
+      73.5,
+      0.0
+    ],
+    "keeper": [
+      59.8,
+      62.800000000000004,
+      0.0
+    ],
+    "cover_key": [
+      105.39999999999999,
+      57.0,
+      0.0
+    ]
+  },
+  "passes": true,
+  "source_provenance": "source/provenance.json"
+}

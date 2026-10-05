@@ -1,0 +1,149 @@
+FOLDING TRAVEL CUTLERY V9 — FULLY PRINTED PROTOTYPE
+30 September 2026
+
+START HERE
+Print cutlery-v9-mechanism-test.3mf first to check the threads, clearances,
+locking tabs and dismantling sequence before committing to the full set.
+It contains three short test rings and the same barrel, cap, washer, keeper
+and cover key used in the finished set. Those five hardware parts can be
+reused if their printed fit is satisfactory. The cover itself is not included
+in this small test, so cover retention still needs a separate physical check.
+
+Use cutlery-v9-folding-prototype.3mf for the complete nine-part set, or the
+individual files in print/. Both 3MFs are unsliced, printer-neutral models.
+They contain no G-code or applied printer/material profile. Select your actual
+printer and material. Dimensions are in millimetres. Do not mix v8 pivot parts
+with v9 parts. The source/ directory contains the v7 input geometry with account metadata removed.
+
+WHAT CHANGED
+- A stationary barrel now guides the utensil rings throughout opening. Loosening
+  the cap no longer withdraws their central guide.
+- A recessed, removable keeper captures the cap and washer during normal use.
+  Its left-hand thread allows deliberate removal for cleaning and servicing.
+- Rigid cover arms attach to the barrel base with a removable quarter-turn key.
+  End stops position the cover, which covers the unused heads during use.
+- The key's flat finger head also fits the keeper's driver slot.
+- Locking tabs have rounded roots and lead-ins, with matching pocket relief.
+- Shallow assembly marks, direction arrows and a cover thumb pad were added.
+- The repaired fork and 1.8 mm central spoon floor from v8 are retained.
+
+This remains a shared-handle set: deploy one utensil at a time. The tabs couple
+the utensils to one another at the folded and 180-degree deployed positions;
+the tightened cap clamps the stack. The lowest ring rests on a smooth base.
+The folded model, including cover and key, is 95.6 mm long, 58.4 mm wide and
+34.0 mm high. The closed pivot itself is 31.6 mm high, including its base.
+
+PARTS AND PRINT ORIENTATION
+Print one each: fork, knife, spoon, washer, barrel, cap, keeper, cover, cover_key.
+The 3MFs and individual STLs already have the intended print orientations:
+- Utensils and washer: flat, pockets downward; utensil tabs upward.
+- Barrel: broad base on the plate, guide barrel upward.
+- Cap and keeper: inverted, with their outer top faces against the plate.
+- Cover: closed end on the plate, long arms upward. Consider a brim.
+- Cover key: long shaft horizontal, common flat face against the plate.
+
+Objects are arranged within a 256 x 256 mm area with separated footprints.
+Rearrange for another bed size. This layout does not account for the clearance
+needed by a printer that prints complete objects one after another.
+
+A 0.4 mm nozzle, 0.16 mm layers, four walls and 30% infill are starting values
+carried from the supplied project's settings; they are not validated settings
+for v9. Inspect the sliced threads, small pocket roofs, tabs, thin fork roots,
+cover arm holes and bridges. Avoid support material trapped in moving joints.
+The model has not been opened in a slicer or physically printed in this work.
+
+ASSEMBLY
+All clockwise/anticlockwise directions below are viewed from above the cap.
+
+1. Place the barrel with its broad base down and cylindrical guide upward.
+2. Add the fork, then knife, then spoon over the guide. The necks carry one,
+   two and three shallow marks respectively. Tabs face upward, pockets down.
+   Align all heads in the same direction. Seat each pair of tabs in the
+   underside pockets of the next utensil.
+3. Add the washer with its pockets downward and witness grooves upward.
+   Seat it over the spoon tabs; check that every interface lies flat.
+4. Fit the large cap and turn it CLOCKWISE by hand to clamp the seated stack.
+   Do not use the cap to force a misplaced tab into a pocket.
+5. Insert the small keeper through the cap's central opening. Use the flat
+   finger head of the removed cover key in its slot. Turn the keeper
+   ANTICLOCKWISE until its seating shoulder meets the barrel. Tighten gently.
+   The keeper has a left-hand thread; the large cap has a right-hand thread.
+6. Slide the cover over the aligned heads towards the pivot. Its arms fit over
+   the base ears. Stop when the arm end stops meet the ears and holes align.
+7. Insert the key through the aligned holes with its far-end lug lying flat
+   in line with the horizontal keyways. Once it has passed through, turn it
+   a quarter-turn so the lug is vertical, then pull the finger head gently
+   outwards to seat the lug in the recess on the opposite arm.
+
+The key is removable and can be lost. Its seated geometry blocks extraction,
+but there is no spring to hold it seated. Physical handling and vibration
+retention have not been established. Check that it remains seated before
+relying on the cover as a grip or carrying the set loose in a bag.
+
+OPENING AND CLOSING
+1. Push the cover key's finger head inwards approximately 0.8 mm. Turn it a
+   quarter-turn to align the far lug with the horizontal keyways, then pull
+   it out. Slide the cover away from the pivot and off the utensil heads.
+2. Loosen the large cap ANTICLOCKWISE approximately 1.68 turns. Its 2.5 mm
+   pitch gives 4.2 mm of total release space. The keeper stays installed.
+3. Spread the three keyed interfaces by hand: fork/knife, knife/spoon and
+   spoon/washer. The geometry check uses 1.4 mm at each interface to clear
+   the 1.2 mm tabs. The washer does not automatically rise with the cap.
+4. Rotate the selected utensil 180 degrees on the fixed guide, keeping the
+   others in their storage direction. Do not force engaged tabs to rotate.
+5. Align and reseat all tabs and pockets. Tighten the cap CLOCKWISE gently.
+   Check that the selected utensil stays indexed under gentle dry handling.
+6. Refit the cover over the two unused heads and lock its key as above.
+   The thumb pad lies on top of the cover; its arrow points towards the
+   deployed utensil. Fold the utensil using the same release sequence.
+
+The keeper stop is nominally 4.61 mm above the closed cap position; 4.6 mm was
+checked clear in the model. Stop as soon as contact is felt. Do not force the
+cap against the keeper or use the stop as a tightening reference.
+
+DISMANTLING FOR CLEANING OR SERVICING
+1. Remove the cover and its key. Align all heads and gently close the main cap.
+2. Use the cover key's flat finger head to turn the central keeper CLOCKWISE.
+   Withdraw it completely through the central opening. Keep it somewhere safe.
+3. Turn the large cap ANTICLOCKWISE until it comes off. Lift off the washer,
+   spoon, knife and fork. The barrel and base form one printed part.
+4. Reassemble in the order above, including the keeper. Normal cap operation
+   must not rely on an omitted or incompletely seated keeper.
+
+FIRST PHYSICAL CHECKS
+- Check that both threads start and turn by hand without binding.
+- Confirm that the keeper seats fully and stops the cap before it can escape.
+- Confirm that the washer remains guided and the rings can separate and rotate.
+- Confirm that the tabs seat fully and resist unwanted rotation when clamped.
+- Practise the complete removal and refitting of the keeper, cap and washer.
+- On the full set, check the cover end stops, key release and retention, then
+  repeat opening and closing to inspect wear, loosening and hand comfort.
+Stop and adjust the fit if any part binds, cracks, rocks or needs excessive
+force. Digital clearance does not establish a printed fit or working load.
+
+PROTOTYPE STATUS
+Printed fit, strength, wear and comfortable handling remain untested. Repeated
+food contact, hot-food use, dishwasher cleaning and hygiene are unverified.
+No food-contact suitability follows from a filament name or the source profile.
+
+DIGITAL CHECKS AND FILES
+assembly-preview.png shows the actual model in folded, spoon-deployed and
+exploded views. Colours distinguish parts for illustration only.
+validation.json records dimensions, print transforms, mesh checks and the four
+closed assembly states. integration-audit.json checks exported meshes through
+opening, indexed locking, captivity, dismantling and keeper-driver use.
+pivot-validation.json and cover-validation.json record component motion checks.
+package-audit.json checks both 3MFs against the exported STLs and source hash.
+rebuild-validation.json records a clean rebuild comparison.
+These reports concern digital geometry and file integrity only.
+
+EDITABLE BUILD
+The included scripts rebuild from source/pribor-cutlery-v7.3mf. They do not
+require intermediate review files. Install the versions in requirements.txt
+in a Python environment, then run from this folder:
+  python build_cutlery.py
+  python audit_v9.py
+  python verify_package.py --rebuild
+  python render_preview.py
+The full set has nine parts; the separate mechanism test has eight. Do not
+print both sets of identical hardware unless you want spares.

@@ -1,0 +1,199 @@
+{
+  "scope": "Independent integration audit of exported meshes; no physical print, load, wear, fit or food-contact validation.",
+  "units": "mm",
+  "input_source": "final print STL exports, restored through recorded inverse print transforms",
+  "input_sha256": {
+    "fork": "fc68bcd56dd4dae1f2d1c4132ee9ebed59b89e66826c5ab3cf5e63f183871e44",
+    "knife": "858fb3acd1c7a68e20ff100ff1a9f5801b8b2c60659806302991c73219001a98",
+    "spoon": "c656a25075e9e85fc736d946a927cd101abe8cc00c109b990458b6b37fa7ea2b",
+    "washer": "8fc5798ad39318b43f3c545f1073df178d61e7ee47b7b1a18de3574a1befefad",
+    "barrel": "f76c8e343dcf2e1395e027f4b68fefefe52cf74a91709394888c134403e8551c",
+    "cap": "2041c8170dcc64e8bc60145f616628c3aee1c1346125035ae6f86ff3ac3e30c3",
+    "keeper": "1ce1a5b0a5285c65c8d9a787a11ef1e3fd194d9197e9fe68cfb401777cf60687",
+    "cover": "5375d685f60f26ea7710c136d37e431fa870d9393e85c18ef52d5edfb4deb2f7",
+    "cover_key": "5df7a5ece636cb39dcc2d10422374746c44b2625cb3e4bd240faf157527d008e"
+  },
+  "input_paths": {
+    "fork": "print/fork.stl",
+    "knife": "print/knife.stl",
+    "spoon": "print/spoon.stl",
+    "washer": "print/washer.stl",
+    "barrel": "print/barrel.stl",
+    "cap": "print/cap.stl",
+    "keeper": "print/keeper.stl",
+    "cover": "print/cover.stl",
+    "cover_key": "print/cover_key.stl"
+  },
+  "clamped_with_cover": {
+    "folded": {},
+    "fork": {},
+    "knife": {},
+    "spoon": {}
+  },
+  "released_rotation": {
+    "fork": {
+      "0": {},
+      "15": {},
+      "30": {},
+      "45": {},
+      "60": {},
+      "75": {},
+      "90": {},
+      "105": {},
+      "120": {},
+      "135": {},
+      "150": {},
+      "165": {},
+      "180": {}
+    },
+    "knife": {
+      "0": {},
+      "15": {},
+      "30": {},
+      "45": {},
+      "60": {},
+      "75": {},
+      "90": {},
+      "105": {},
+      "120": {},
+      "135": {},
+      "150": {},
+      "165": {},
+      "180": {}
+    },
+    "spoon": {
+      "0": {},
+      "15": {},
+      "30": {},
+      "45": {},
+      "60": {},
+      "75": {},
+      "90": {},
+      "105": {},
+      "120": {},
+      "135": {},
+      "150": {},
+      "165": {},
+      "180": {}
+    }
+  },
+  "keyed_rotation_blockers": {
+    "fork": {
+      "-3": {
+        "fork/knife": 2.959097426943975
+      },
+      "3": {
+        "fork/knife": 2.9590974213439662
+      }
+    },
+    "knife": {
+      "-3": {
+        "fork/knife": 2.9590974213439134,
+        "knife/spoon": 2.9590974269440355
+      },
+      "3": {
+        "fork/knife": 2.959097426944139,
+        "knife/spoon": 2.959097421343649
+      }
+    },
+    "spoon": {
+      "-3": {
+        "knife/spoon": 2.959097421343949,
+        "spoon/washer": 2.959152183140017
+      },
+      "3": {
+        "knife/spoon": 2.9590974269440573,
+        "spoon/washer": 2.959152176093804
+      }
+    }
+  },
+  "cap_above_stationary_stack": {
+    "0.0": {},
+    "0.2": {},
+    "1.0": {},
+    "2.5": {},
+    "4.2": {},
+    "4.6": {}
+  },
+  "full_cleaning_disassembly": {
+    "keeper_with_closed_cap": {
+      "0.0": {},
+      "1.0": {},
+      "3.0": {},
+      "5.0": {},
+      "8.0": {},
+      "14.0": {},
+      "20.0": {},
+      "25.0": {},
+      "30.0": {},
+      "35.0": {}
+    },
+    "cap_without_keeper": {
+      "0.0": {},
+      "4.6": {},
+      "7.0": {},
+      "10.0": {},
+      "13.0": {},
+      "16.0": {},
+      "18.0": {}
+    },
+    "main_cap_bottom_at_18mm_rise": 21.399999237060552
+  },
+  "keeper_driver": {
+    "vertical_approach": {
+      "12.0": {},
+      "6.0": {},
+      "2.0": {},
+      "0.5": {},
+      "0.0": {}
+    },
+    "clockwise_removal": {
+      "0.0": {},
+      "0.25": {},
+      "0.5": {},
+      "1.0": {},
+      "2.0": {},
+      "3.0": {},
+      "5.0": {},
+      "8.0": {}
+    },
+    "intentional_10deg_slot_wall_interference_mm3": 2.002966728125327
+  },
+  "released_interpart_z_clearance_mm": {
+    "fork/knife": 0.20000019073486364,
+    "knife/spoon": 0.20000019073486364,
+    "spoon/washer": 0.1999999999999993
+  },
+  "guide_and_capture": {
+    "barrel_top_mm": 21.0,
+    "barrel_guide_radius_mm": 11.800000433565533,
+    "normal_release_total_gap_mm": 4.2,
+    "normal_release_washer_top_mm": 20.40000009536743,
+    "normal_release_top_guidance_margin_mm": 0.5999999046325684,
+    "nominal_stop_rise_mm": 4.61,
+    "washer_top_at_nominal_stop_mm": 20.810000381469727,
+    "washer_top_margin_at_nominal_stop_mm": 0.18999961853027258,
+    "minimum_vertex_bore_radii_mm": {
+      "fork": 11.99999519207209,
+      "knife": 11.999997997507377,
+      "spoon": 11.999993905767464,
+      "washer": 11.99999945745396
+    },
+    "nominal_radial_bore_clearance_mm": {
+      "fork": 0.19999475850655735,
+      "knife": 0.1999975639418441,
+      "spoon": 0.19999347220193187,
+      "washer": 0.19999902388842727
+    },
+    "washer_full_bore_guided_at_normal_release": true,
+    "cap_keeper_interference_beyond_stop_mm3": 5.130866514132238,
+    "washer_escape_attempt_cap_interference_mm3": 1145.5571648577336,
+    "scope": "Coaxial translation and prescribed opening configurations; no physical retention-force claim."
+  },
+  "contact_rounding": {
+    "z_depth_tolerance_mm": 2e-05,
+    "ignored_count": 8,
+    "max_z_depth_mm": 1.9073486257070726e-07
+  },
+  "passes": true
+}

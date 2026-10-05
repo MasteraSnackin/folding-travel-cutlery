@@ -1,0 +1,166 @@
+{
+  "units": "mm",
+  "parts": {
+    "cover": {
+      "bounds_mm": [
+        [
+          -26.0,
+          -16.0,
+          -8.4
+        ],
+        [
+          26.0,
+          76.6,
+          17.349999999999998
+        ]
+      ],
+      "volume_mm3": 16483.579057098654,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "cover_key": {
+      "bounds_mm": [
+        [
+          -30.8,
+          -11.1,
+          -7.0
+        ],
+        [
+          27.6,
+          -8.4,
+          1.0
+        ]
+      ],
+      "volume_mm3": 459.05222435900004,
+      "watertight": true,
+      "solid_count": 1
+    },
+    "attachment_base_fixture": {
+      "bounds_mm": [
+        [
+          -24.0,
+          -19.0,
+          -6.0
+        ],
+        [
+          24.0,
+          19.0,
+          0.0
+        ]
+      ],
+      "volume_mm3": 6517.544796145209,
+      "watertight": true,
+      "solid_count": 1
+    }
+  },
+  "assembled_collisions_mm3": {
+    "cover/base": 0.0,
+    "cover/key_locked": 0.0,
+    "base/key_locked": 0.0
+  },
+  "key_release_sequence_collisions_mm3": {
+    "push_0": 0.0,
+    "push_0.2": 0.0,
+    "push_0.4": 0.0,
+    "push_0.6": 0.0,
+    "push_0.8": 0.0,
+    "turn_0": 0.0,
+    "turn_15": 0.0,
+    "turn_30": 0.0,
+    "turn_45": 0.0,
+    "turn_60": 0.0,
+    "turn_75": 0.0,
+    "turn_90": 0.0,
+    "withdraw_0": 0.0,
+    "withdraw_5": 0.0,
+    "withdraw_15": 0.0,
+    "withdraw_30": 0.0,
+    "withdraw_45": 0.0,
+    "withdraw_60": 0.0
+  },
+  "cover_insertion_fixture_collisions_mm3": {
+    "0": 0.0,
+    "0.1": 0.0,
+    "0.5": 0.0,
+    "1": 0.0,
+    "5": 0.0,
+    "10": 0.0,
+    "15": 0.0,
+    "20": 0.0,
+    "35": 0.0,
+    "55": 0.0,
+    "80": 0.0
+  },
+  "blocked_motion_intersections": {
+    "pull_without_turn_1mm_mm3": 5.297183144779464,
+    "turn_without_push_20deg_mm3": 0.5200120128039682,
+    "cover_pulled_1mm_with_key_mm3": 1.4279793721777194,
+    "cover_overinserted_1mm_mm3": 37.318000000000005
+  },
+  "ear_bounds": {
+    "right": [
+      [
+        13.5,
+        -13.6,
+        -6.0
+      ],
+      [
+        24.0,
+        -6.4,
+        0.0
+      ]
+    ],
+    "left": [
+      [
+        -24.0,
+        -13.6,
+        -6.0
+      ],
+      [
+        -13.5,
+        -6.4,
+        0.0
+      ]
+    ]
+  },
+  "key_axis_y_z_mm": [
+    -10.0,
+    -3.0
+  ],
+  "key_push_to_release_mm": 0.8,
+  "key_release_rotation_deg": 90,
+  "key_withdraw_direction": "-X",
+  "cover_remove_direction": "+Y",
+  "socket_clearance_z_each_side_mm": 0.4,
+  "socket_outer_x_clearance_mm": 0.4,
+  "shaft_diameter_mm": 3.2,
+  "round_bore_diameter_mm": 3.7,
+  "lug_dimensions_x_y_z_locked_mm": [
+    2.2,
+    2.2,
+    6.0
+  ],
+  "recess_depth_mm": 0.65,
+  "keeper_driver_head_mm": {
+    "width": 8.0,
+    "thickness": 2.2,
+    "head_length": 2.4,
+    "tip_x": -30.8,
+    "centre_y": -10.0,
+    "centre_z": -3.0,
+    "required_engagement": 1.9
+  },
+  "cover_print_orientation": "Closed +Y end down; arms up. Inspect bridges and use brim.",
+  "latch_key_print_orientation": "Rotate90 degrees aboutX and place common flat side onbed; shaft horizontal; inspect sliced preview.",
+  "operation": [
+    "Remove transverse key: push head +X0.8mm, quarter-turn90 degrees, withdraw toward\u2212X.",
+    "Pull cover +Y off the stored heads before unlocking or rotating any utensil.",
+    "After pivot is locked, slide cover \u2212Y over unused heads until the arm end stops meet base ears.",
+    "Insert key toward+X with far lug horizontal; quarter-turn then pull head gently\u2212X to seat vertical lug in recess."
+  ],
+  "limitations": [
+    "Untested printed fit, strength, fatigue, hand comfort and thermal/food-contact properties.",
+    "No spring or friction force is modelled to hold the key seated. Handling retention needs physical testing.",
+    "Cover is a guarded grip only after key installation; no established load rating."
+  ]
+}

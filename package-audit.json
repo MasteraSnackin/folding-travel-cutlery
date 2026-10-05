@@ -1,0 +1,1022 @@
+{
+  "status": "PASS",
+  "scope": "Source preservation, exported geometry integrity, millimetre units and independent plate layout checks.",
+  "source": {
+    "file": "pribor-cutlery-v7.3mf",
+    "recorded_source_sha256": "e4a2f082ae91ac8bb5b922bfc53b9d64b8aa0b38ca45b3729d1d977a11836f7b",
+    "source_copy_sha256": "e4a2f082ae91ac8bb5b922bfc53b9d64b8aa0b38ca45b3729d1d977a11836f7b"
+  },
+  "packages": {
+    "cutlery-v9-folding-prototype.3mf": {
+      "package_sha256": "53717098e5d74d642d9025a083d568ae020f66bce1bf07135d862b9eeb5c0e43",
+      "model_units": "millimeter",
+      "object_count": 9,
+      "bed_mm": [
+        256.0,
+        256.0
+      ],
+      "minimum_xy_bounding_rectangle_gap_mm": 7.999999999999972,
+      "objects": {
+        "fork": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -17.49979663,
+                -17.50000083,
+                0.0
+              ],
+              [
+                17.49979897,
+                72.64489657,
+                5.2
+              ]
+            ],
+            "volume_mm3": 6622.834250965327,
+            "vertices": 7796,
+            "triangles": 15592,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -17.49979591369629,
+                -17.5,
+                0.0
+              ],
+              [
+                17.499799728393555,
+                72.6448974609375,
+                5.199999809265137
+              ]
+            ],
+            "volume_mm3": 6622.834236197326,
+            "vertices": 7796,
+            "triangles": 15592,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "fc68bcd56dd4dae1f2d1c4132ee9ebed59b89e66826c5ab3cf5e63f183871e44",
+          "plate_bounds_mm": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              44.9995956,
+              100.1448974,
+              5.2
+            ]
+          ]
+        },
+        "knife": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -17.49959186,
+                -17.49840019,
+                0.0
+              ],
+              [
+                17.49663914,
+                72.63473281,
+                5.2
+              ]
+            ],
+            "volume_mm3": 6127.7128765474035,
+            "vertices": 8602,
+            "triangles": 17204,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -17.499591827392578,
+                -17.49839973449707,
+                0.0
+              ],
+              [
+                17.496639251708984,
+                72.63473510742188,
+                5.199999809265137
+              ]
+            ],
+            "volume_mm3": 6127.712785442804,
+            "vertices": 8602,
+            "triangles": 17204,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "858fb3acd1c7a68e20ff100ff1a9f5801b8b2c60659806302991c73219001a98",
+          "plate_bounds_mm": [
+            [
+              52.999595600000006,
+              10.0,
+              0.0
+            ],
+            [
+              87.9958266,
+              100.133133,
+              5.2
+            ]
+          ]
+        },
+        "spoon": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -18.11971699,
+                -17.49999473,
+                0.0
+              ],
+              [
+                17.49983561,
+                72.57327807,
+                7.0
+              ]
+            ],
+            "volume_mm3": 9269.396453241361,
+            "vertices": 17746,
+            "triangles": 35492,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -18.11971664428711,
+                -17.4999942779541,
+                0.0
+              ],
+              [
+                17.499835968017578,
+                72.57328033447266,
+                7.0
+              ]
+            ],
+            "volume_mm3": 9269.396752141163,
+            "vertices": 17746,
+            "triangles": 35492,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "c656a25075e9e85fc736d946a927cd101abe8cc00c109b990458b6b37fa7ea2b",
+          "plate_bounds_mm": [
+            [
+              95.9958266,
+              10.0,
+              0.0
+            ],
+            [
+              131.6153792,
+              100.0732728,
+              7.0
+            ]
+          ]
+        },
+        "cover": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -26.0,
+                0.0,
+                0.0
+              ],
+              [
+                26.0,
+                25.75,
+                92.6
+              ]
+            ],
+            "volume_mm3": 16483.579057072253,
+            "vertices": 1630,
+            "triangles": 3272,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -26.0,
+                0.0,
+                0.0
+              ],
+              [
+                26.0,
+                25.75,
+                92.5999984741211
+              ]
+            ],
+            "volume_mm3": 16483.58066771431,
+            "vertices": 1630,
+            "triangles": 3272,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "5375d685f60f26ea7710c136d37e431fa870d9393e85c18ef52d5edfb4deb2f7",
+          "plate_bounds_mm": [
+            [
+              139.6153792,
+              10.0,
+              0.0
+            ],
+            [
+              191.6153792,
+              35.75,
+              92.6
+            ]
+          ]
+        },
+        "barrel": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -24.0,
+                -18.9246578,
+                0.0
+              ],
+              [
+                24.0,
+                18.9246578,
+                27.0
+              ]
+            ],
+            "volume_mm3": 9718.537332246351,
+            "vertices": 65368,
+            "triangles": 130748,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -24.0,
+                -18.924657821655273,
+                0.0
+              ],
+              [
+                24.0,
+                18.924657821655273,
+                27.0
+              ]
+            ],
+            "volume_mm3": 9718.537290029772,
+            "vertices": 65368,
+            "triangles": 130748,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "f76c8e343dcf2e1395e027f4b68fefefe52cf74a91709394888c134403e8551c",
+          "plate_bounds_mm": [
+            [
+              10.0,
+              108.14489739999999,
+              0.0
+            ],
+            [
+              58.0,
+              145.994213,
+              27.0
+            ]
+          ]
+        },
+        "cap": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -19.0,
+                -19.0,
+                0.0
+              ],
+              [
+                19.0,
+                19.0,
+                22.2
+              ]
+            ],
+            "volume_mm3": 10127.540914840185,
+            "vertices": 13366,
+            "triangles": 26732,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -19.0,
+                -19.0,
+                0.0
+              ],
+              [
+                19.0,
+                19.0,
+                22.200000762939453
+              ]
+            ],
+            "volume_mm3": 10127.540679305705,
+            "vertices": 13366,
+            "triangles": 26732,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "2041c8170dcc64e8bc60145f616628c3aee1c1346125035ae6f86ff3ac3e30c3",
+          "plate_bounds_mm": [
+            [
+              66.0,
+              108.1448974,
+              0.0
+            ],
+            [
+              104.0,
+              146.1448974,
+              22.2
+            ]
+          ]
+        },
+        "washer": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -17.5,
+                -17.5,
+                0.0
+              ],
+              [
+                17.5,
+                17.5,
+                2.4
+              ]
+            ],
+            "volume_mm3": 1181.9585479781138,
+            "vertices": 1266,
+            "triangles": 2532,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -17.5,
+                -17.5,
+                0.0
+              ],
+              [
+                17.5,
+                17.5,
+                2.4000000953674316
+              ]
+            ],
+            "volume_mm3": 1181.9586026309942,
+            "vertices": 1266,
+            "triangles": 2532,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "8fc5798ad39318b43f3c545f1073df178d61e7ee47b7b1a18de3574a1befefad",
+          "plate_bounds_mm": [
+            [
+              112.0,
+              108.1448974,
+              0.0
+            ],
+            [
+              147.0,
+              143.1448974,
+              2.4
+            ]
+          ]
+        },
+        "keeper": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -6.8,
+                -6.8,
+                0.0
+              ],
+              [
+                6.8,
+                6.8,
+                30.0
+              ]
+            ],
+            "volume_mm3": 1537.125904697352,
+            "vertices": 24027,
+            "triangles": 48050,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -6.800000190734863,
+                -6.800000190734863,
+                0.0
+              ],
+              [
+                6.800000190734863,
+                6.800000190734863,
+                30.0
+              ]
+            ],
+            "volume_mm3": 1537.1259104284002,
+            "vertices": 24027,
+            "triangles": 48050,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "1ce1a5b0a5285c65c8d9a787a11ef1e3fd194d9197e9fe68cfb401777cf60687",
+          "plate_bounds_mm": [
+            [
+              155.0,
+              108.1448974,
+              0.0
+            ],
+            [
+              168.60000000000002,
+              121.7448974,
+              30.0
+            ]
+          ]
+        },
+        "cover_key": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -30.8,
+                -1.0,
+                0.0
+              ],
+              [
+                27.6,
+                7.0,
+                2.7
+              ]
+            ],
+            "volume_mm3": 459.05222441475433,
+            "vertices": 258,
+            "triangles": 512,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -30.799999237060547,
+                -1.0,
+                0.0
+              ],
+              [
+                27.600000381469727,
+                7.0,
+                2.700000047683716
+              ]
+            ],
+            "volume_mm3": 459.05223167117856,
+            "vertices": 258,
+            "triangles": 512,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "5df7a5ece636cb39dcc2d10422374746c44b2625cb3e4bd240faf157527d008e",
+          "plate_bounds_mm": [
+            [
+              176.6,
+              108.1448974,
+              0.0
+            ],
+            [
+              235.0,
+              116.1448974,
+              2.7
+            ]
+          ]
+        }
+      },
+      "all_stl_triangle_coordinates_match_3mf": true,
+      "all_parts_touch_bed": true,
+      "all_footprint_rectangles_disjoint": true
+    },
+    "cutlery-v9-mechanism-test.3mf": {
+      "package_sha256": "eb67c1be106ba1951a7b1cd6229df8f1f23ed0fdb43aae074490bb5bdbfbc0e9",
+      "model_units": "millimeter",
+      "object_count": 8,
+      "bed_mm": [
+        256.0,
+        256.0
+      ],
+      "minimum_xy_bounding_rectangle_gap_mm": 8.0,
+      "objects": {
+        "test_fork": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -17.49979663,
+                -17.50000083,
+                0.0
+              ],
+              [
+                17.49979897,
+                18.5,
+                5.2
+              ]
+            ],
+            "volume_mm3": 2327.6654893331283,
+            "vertices": 4790,
+            "triangles": 9580,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -17.49979591369629,
+                -17.5,
+                0.0
+              ],
+              [
+                17.499799728393555,
+                18.5,
+                5.199999809265137
+              ]
+            ],
+            "volume_mm3": 2327.6654502755177,
+            "vertices": 4790,
+            "triangles": 9580,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "abec445da9fe2ae74ba1b7272b73fb16267845ae17ba942314062f7f76ccb62d",
+          "plate_bounds_mm": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              44.9995956,
+              46.000000830000005,
+              5.2
+            ]
+          ]
+        },
+        "test_knife": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -17.49959186,
+                -17.49840019,
+                0.0
+              ],
+              [
+                17.49663914,
+                18.5,
+                5.2
+              ]
+            ],
+            "volume_mm3": 2410.1334080986944,
+            "vertices": 4791,
+            "triangles": 9582,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -17.499591827392578,
+                -17.49839973449707,
+                0.0
+              ],
+              [
+                17.496639251708984,
+                18.5,
+                5.199999809265137
+              ]
+            ],
+            "volume_mm3": 2410.1333663632504,
+            "vertices": 4791,
+            "triangles": 9582,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "c7c51dfbb061b0550a8dcd0373c4a2bd5f44204029afb773d5aa1428d9932287",
+          "plate_bounds_mm": [
+            [
+              52.999595600000006,
+              10.0,
+              0.0
+            ],
+            [
+              87.9958266,
+              45.99840019,
+              5.2
+            ]
+          ]
+        },
+        "test_spoon": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -17.49988969,
+                -17.49999473,
+                0.0
+              ],
+              [
+                17.49983561,
+                18.5,
+                7.0
+              ]
+            ],
+            "volume_mm3": 3386.978304312734,
+            "vertices": 5519,
+            "triangles": 11038,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -17.499889373779297,
+                -17.4999942779541,
+                0.0
+              ],
+              [
+                17.499835968017578,
+                18.5,
+                7.0
+              ]
+            ],
+            "volume_mm3": 3386.978350831681,
+            "vertices": 5519,
+            "triangles": 11038,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "34fbccac31bed748f86f48488797288c78b43ce82d86e34aaafe0dbb19341be1",
+          "plate_bounds_mm": [
+            [
+              95.9958266,
+              10.0,
+              0.0
+            ],
+            [
+              130.9955519,
+              45.99999473,
+              7.0
+            ]
+          ]
+        },
+        "barrel": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -24.0,
+                -18.9246578,
+                0.0
+              ],
+              [
+                24.0,
+                18.9246578,
+                27.0
+              ]
+            ],
+            "volume_mm3": 9718.537332246351,
+            "vertices": 65368,
+            "triangles": 130748,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -24.0,
+                -18.924657821655273,
+                0.0
+              ],
+              [
+                24.0,
+                18.924657821655273,
+                27.0
+              ]
+            ],
+            "volume_mm3": 9718.537290029772,
+            "vertices": 65368,
+            "triangles": 130748,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "f76c8e343dcf2e1395e027f4b68fefefe52cf74a91709394888c134403e8551c",
+          "plate_bounds_mm": [
+            [
+              138.9955519,
+              10.0,
+              0.0
+            ],
+            [
+              186.9955519,
+              47.8493156,
+              27.0
+            ]
+          ]
+        },
+        "cap": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -19.0,
+                -19.0,
+                0.0
+              ],
+              [
+                19.0,
+                19.0,
+                22.2
+              ]
+            ],
+            "volume_mm3": 10127.540914840185,
+            "vertices": 13366,
+            "triangles": 26732,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -19.0,
+                -19.0,
+                0.0
+              ],
+              [
+                19.0,
+                19.0,
+                22.200000762939453
+              ]
+            ],
+            "volume_mm3": 10127.540679305705,
+            "vertices": 13366,
+            "triangles": 26732,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "2041c8170dcc64e8bc60145f616628c3aee1c1346125035ae6f86ff3ac3e30c3",
+          "plate_bounds_mm": [
+            [
+              194.9955519,
+              10.0,
+              0.0
+            ],
+            [
+              232.9955519,
+              48.0,
+              22.2
+            ]
+          ]
+        },
+        "washer": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -17.5,
+                -17.5,
+                0.0
+              ],
+              [
+                17.5,
+                17.5,
+                2.4
+              ]
+            ],
+            "volume_mm3": 1181.9585479781138,
+            "vertices": 1266,
+            "triangles": 2532,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -17.5,
+                -17.5,
+                0.0
+              ],
+              [
+                17.5,
+                17.5,
+                2.4000000953674316
+              ]
+            ],
+            "volume_mm3": 1181.9586026309942,
+            "vertices": 1266,
+            "triangles": 2532,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "8fc5798ad39318b43f3c545f1073df178d61e7ee47b7b1a18de3574a1befefad",
+          "plate_bounds_mm": [
+            [
+              10.0,
+              56.0,
+              0.0
+            ],
+            [
+              45.0,
+              91.0,
+              2.4
+            ]
+          ]
+        },
+        "keeper": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -6.8,
+                -6.8,
+                0.0
+              ],
+              [
+                6.8,
+                6.8,
+                30.0
+              ]
+            ],
+            "volume_mm3": 1537.125904697352,
+            "vertices": 24027,
+            "triangles": 48050,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -6.800000190734863,
+                -6.800000190734863,
+                0.0
+              ],
+              [
+                6.800000190734863,
+                6.800000190734863,
+                30.0
+              ]
+            ],
+            "volume_mm3": 1537.1259104284002,
+            "vertices": 24027,
+            "triangles": 48050,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "1ce1a5b0a5285c65c8d9a787a11ef1e3fd194d9197e9fe68cfb401777cf60687",
+          "plate_bounds_mm": [
+            [
+              53.0,
+              56.0,
+              0.0
+            ],
+            [
+              66.6,
+              69.6,
+              30.0
+            ]
+          ]
+        },
+        "cover_key": {
+          "3mf": {
+            "bounds_mm": [
+              [
+                -30.8,
+                -1.0,
+                0.0
+              ],
+              [
+                27.6,
+                7.0,
+                2.7
+              ]
+            ],
+            "volume_mm3": 459.05222441475433,
+            "vertices": 258,
+            "triangles": 512,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl": {
+            "bounds_mm": [
+              [
+                -30.799999237060547,
+                -1.0,
+                0.0
+              ],
+              [
+                27.600000381469727,
+                7.0,
+                2.700000047683716
+              ]
+            ],
+            "volume_mm3": 459.05223167117856,
+            "vertices": 258,
+            "triangles": 512,
+            "watertight": true,
+            "consistent_winding": true,
+            "invalid_edge_count": 0,
+            "solid_count": 1
+          },
+          "stl_sha256": "5df7a5ece636cb39dcc2d10422374746c44b2625cb3e4bd240faf157527d008e",
+          "plate_bounds_mm": [
+            [
+              74.60000000000001,
+              56.0,
+              0.0
+            ],
+            [
+              133.0,
+              64.0,
+              2.7
+            ]
+          ]
+        }
+      },
+      "all_stl_triangle_coordinates_match_3mf": true,
+      "all_parts_touch_bed": true,
+      "all_footprint_rectangles_disjoint": true
+    }
+  },
+  "not_verified": [
+    "Printer or slicer acceptance",
+    "Physical fit, strength or durability",
+    "Food-contact suitability"
+  ],
+  "mechanism_test_hardware_matches_full_parts": {
+    "barrel": true,
+    "cap": true,
+    "washer": true,
+    "keeper": true,
+    "cover_key": true
+  }
+}

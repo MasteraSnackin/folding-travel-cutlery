@@ -1,0 +1,426 @@
+{
+  "units": "mm",
+  "scope": "Digital geometry only; printed fit and strength untested.",
+  "main_pitch_mm": 2.5,
+  "main_phase_degrees": 172.5,
+  "barrel_top_mm": 21.0,
+  "barrel_diameter_mm": 23.6,
+  "fixed_flange_z_mm": [
+    -6.0,
+    0.0
+  ],
+  "clamped_cap_top_mm": 25.6,
+  "verified_clear_cap_rise_mm": 4.6,
+  "nominal_conical_stop_rise_mm": 4.61,
+  "keeper_pitch_mm": 2.0,
+  "keeper_release_direction": "clockwise (left-hand thread)",
+  "keeper_head_driver_slot_mm": [
+    10.0,
+    2.6,
+    2.0
+  ],
+  "barrel_to_cap_roof_closed_clearance_mm": 0.6000000000000014,
+  "full_release_main_thread_z_overlap_mm": 13.0,
+  "washer_bottom_at_stop_mm": 18.4,
+  "washer_top_at_stop_mm": 20.799999999999997,
+  "washer_barrel_axial_overlap_at_stop_mm": 2.6000000000000014,
+  "cap_sweep": {
+    "0.000": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "0.200": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "0.400": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "0.600": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "0.800": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "1.000": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "1.200": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "1.400": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "1.600": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "1.800": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "2.000": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "2.200": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "2.400": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "2.600": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "2.800": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "3.000": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "3.200": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "3.400": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "3.600": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "3.800": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "4.000": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "4.200": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "4.400": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    },
+    "4.600": {
+      "barrel": 0.0,
+      "keeper": 0.0
+    }
+  },
+  "keeper_removal_sweep": {
+    "0.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "0.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "1.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "1.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "2.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "2.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "3.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "3.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "4.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "4.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "5.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "5.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "6.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "6.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "7.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "7.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "8.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "8.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "9.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "9.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "10.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "10.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "11.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "11.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "12.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "12.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "13.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "13.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "14.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "14.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "15.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "15.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "16.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "16.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "17.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "17.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "18.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "18.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "19.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "19.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "20.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "20.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "21.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "21.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "22.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "22.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "23.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "23.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "24.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "24.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "25.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "25.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "26.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "26.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "27.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "27.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "28.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "28.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "29.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "29.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "30.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "30.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "31.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "31.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "32.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "32.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "33.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "33.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "34.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "34.500": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    },
+    "35.000": {
+      "barrel": 0.0,
+      "closed_cap": 0.0
+    }
+  },
+  "cap_removal_after_keeper": {
+    "0.0": 0.0,
+    "4.6": 0.0,
+    "6.0": 0.0,
+    "10.0": 0.0,
+    "14.0": 0.0,
+    "18.0": 0.0,
+    "22.0": 0.0
+  },
+  "beyond_stop_overlap_mm3": 5.1308758639448895,
+  "wrong_main_thread_phase_interference_mm3": 231.77496147893717,
+  "wrong_keeper_thread_hand_interference_mm3": 8.726054100417304,
+  "seated_barrel_keeper_overlap_mm3": 0.0,
+  "passes": true,
+  "full_release_unmodified_profile_engagement_excluding_leadins_mm": 11.3
+}

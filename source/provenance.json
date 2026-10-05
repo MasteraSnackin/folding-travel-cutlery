@@ -1,0 +1,8 @@
+{
+  "original_source_sha256": "6708f5160ac7e03be9ab5370c3e9acdf162fd3e0a050db109913fb9c8004f96b",
+  "distributed_source_sha256": "e4a2f082ae91ac8bb5b922bfc53b9d64b8aa0b38ca45b3729d1d977a11836f7b",
+  "change": "Removed DesignerUserId account metadata from the distributed copy.",
+  "geometry_and_build_resources_unchanged": true,
+  "all_other_archive_member_payloads_unchanged": true,
+  "original_local_input_preserved": true
+}

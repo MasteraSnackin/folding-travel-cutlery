@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "scope": "Clean temporary-directory build; STL bytes and all 3MF member payloads compared. ZIP timestamps excluded.",
+  "copied_build_modules": [
+    "build_cutlery.py",
+    "utensils_v9.py",
+    "pivot_v9.py",
+    "cover_v9.py",
+    "repair_parts.py"
+  ],
+  "module_sha256": {
+    "build_cutlery.py": "3483b75aba295b9cc03a1fa7395e7a014c2c11fcaedc68e64b5bef2a5bb5ed00",
+    "utensils_v9.py": "bc1aff3a0be57c62a4284c57d0e04461be74dff4d3ded359b73a67ed7afc5e44",
+    "pivot_v9.py": "ffac336cca297b840e1919289ed39fa672a4bd17879fcfc26b81cf7901c489c6",
+    "cover_v9.py": "6dece87ed23f2da0899a424ef84d477d1c2005a6ff82a94f19f2554be48da94d",
+    "repair_parts.py": "f50b5e0be278669689d9fcf8bea177a14850c0f703d48fee5571af0f54b4a2b3"
+  },
+  "dependency_versions": {
+    "numpy": "2.5.3",
+    "trimesh": "5.1.0",
+    "manifold3d": "3.5.4"
+  },
+  "stl_comparisons": {
+    "print/barrel.stl": {
+      "delivered_sha256": "f76c8e343dcf2e1395e027f4b68fefefe52cf74a91709394888c134403e8551c",
+      "rebuilt_sha256": "f76c8e343dcf2e1395e027f4b68fefefe52cf74a91709394888c134403e8551c",
+      "identical_bytes": true
+    },
+    "print/cap.stl": {
+      "delivered_sha256": "2041c8170dcc64e8bc60145f616628c3aee1c1346125035ae6f86ff3ac3e30c3",
+      "rebuilt_sha256": "2041c8170dcc64e8bc60145f616628c3aee1c1346125035ae6f86ff3ac3e30c3",
+      "identical_bytes": true
+    },
+    "print/cover.stl": {
+      "delivered_sha256": "5375d685f60f26ea7710c136d37e431fa870d9393e85c18ef52d5edfb4deb2f7",
+      "rebuilt_sha256": "5375d685f60f26ea7710c136d37e431fa870d9393e85c18ef52d5edfb4deb2f7",
+      "identical_bytes": true
+    },
+    "print/cover_key.stl": {
+      "delivered_sha256": "5df7a5ece636cb39dcc2d10422374746c44b2625cb3e4bd240faf157527d008e",
+      "rebuilt_sha256": "5df7a5ece636cb39dcc2d10422374746c44b2625cb3e4bd240faf157527d008e",
+      "identical_bytes": true
+    },
+    "print/fork.stl": {
+      "delivered_sha256": "fc68bcd56dd4dae1f2d1c4132ee9ebed59b89e66826c5ab3cf5e63f183871e44",
+      "rebuilt_sha256": "fc68bcd56dd4dae1f2d1c4132ee9ebed59b89e66826c5ab3cf5e63f183871e44",
+      "identical_bytes": true
+    },
+    "print/keeper.stl": {
+      "delivered_sha256": "1ce1a5b0a5285c65c8d9a787a11ef1e3fd194d9197e9fe68cfb401777cf60687",
+      "rebuilt_sha256": "1ce1a5b0a5285c65c8d9a787a11ef1e3fd194d9197e9fe68cfb401777cf60687",
+      "identical_bytes": true
+    },
+    "print/knife.stl": {
+      "delivered_sha256": "858fb3acd1c7a68e20ff100ff1a9f5801b8b2c60659806302991c73219001a98",
+      "rebuilt_sha256": "858fb3acd1c7a68e20ff100ff1a9f5801b8b2c60659806302991c73219001a98",
+      "identical_bytes": true
+    },
+    "print/spoon.stl": {
+      "delivered_sha256": "c656a25075e9e85fc736d946a927cd101abe8cc00c109b990458b6b37fa7ea2b",
+      "rebuilt_sha256": "c656a25075e9e85fc736d946a927cd101abe8cc00c109b990458b6b37fa7ea2b",
+      "identical_bytes": true
+    },
+    "print/washer.stl": {
+      "delivered_sha256": "8fc5798ad39318b43f3c545f1073df178d61e7ee47b7b1a18de3574a1befefad",
+      "rebuilt_sha256": "8fc5798ad39318b43f3c545f1073df178d61e7ee47b7b1a18de3574a1befefad",
+      "identical_bytes": true
+    },
+    "mechanism-test/barrel.stl": {
+      "delivered_sha256": "f76c8e343dcf2e1395e027f4b68fefefe52cf74a91709394888c134403e8551c",
+      "rebuilt_sha256": "f76c8e343dcf2e1395e027f4b68fefefe52cf74a91709394888c134403e8551c",
+      "identical_bytes": true
+    },
+    "mechanism-test/cap.stl": {
+      "delivered_sha256": "2041c8170dcc64e8bc60145f616628c3aee1c1346125035ae6f86ff3ac3e30c3",
+      "rebuilt_sha256": "2041c8170dcc64e8bc60145f616628c3aee1c1346125035ae6f86ff3ac3e30c3",
+      "identical_bytes": true
+    },
+    "mechanism-test/cover_key.stl": {
+      "delivered_sha256": "5df7a5ece636cb39dcc2d10422374746c44b2625cb3e4bd240faf157527d008e",
+      "rebuilt_sha256": "5df7a5ece636cb39dcc2d10422374746c44b2625cb3e4bd240faf157527d008e",
+      "identical_bytes": true
+    },
+    "mechanism-test/keeper.stl": {
+      "delivered_sha256": "1ce1a5b0a5285c65c8d9a787a11ef1e3fd194d9197e9fe68cfb401777cf60687",
+      "rebuilt_sha256": "1ce1a5b0a5285c65c8d9a787a11ef1e3fd194d9197e9fe68cfb401777cf60687",
+      "identical_bytes": true
+    },
+    "mechanism-test/test_fork.stl": {
+      "delivered_sha256": "abec445da9fe2ae74ba1b7272b73fb16267845ae17ba942314062f7f76ccb62d",
+      "rebuilt_sha256": "abec445da9fe2ae74ba1b7272b73fb16267845ae17ba942314062f7f76ccb62d",
+      "identical_bytes": true
+    },
+    "mechanism-test/test_knife.stl": {
+      "delivered_sha256": "c7c51dfbb061b0550a8dcd0373c4a2bd5f44204029afb773d5aa1428d9932287",
+      "rebuilt_sha256": "c7c51dfbb061b0550a8dcd0373c4a2bd5f44204029afb773d5aa1428d9932287",
+      "identical_bytes": true
+    },
+    "mechanism-test/test_spoon.stl": {
+      "delivered_sha256": "34fbccac31bed748f86f48488797288c78b43ce82d86e34aaafe0dbb19341be1",
+      "rebuilt_sha256": "34fbccac31bed748f86f48488797288c78b43ce82d86e34aaafe0dbb19341be1",
+      "identical_bytes": true
+    },
+    "mechanism-test/washer.stl": {
+      "delivered_sha256": "8fc5798ad39318b43f3c545f1073df178d61e7ee47b7b1a18de3574a1befefad",
+      "rebuilt_sha256": "8fc5798ad39318b43f3c545f1073df178d61e7ee47b7b1a18de3574a1befefad",
+      "identical_bytes": true
+    }
+  },
+  "3mf_payload_comparisons": {
+    "cutlery-v9-folding-prototype.3mf": {
+      "[Content_Types].xml": {
+        "delivered_sha256": "6db89f2d2a0bc1c47ff57cead7ce9382b9251576aa57538927781ba66f5d0e38",
+        "rebuilt_sha256": "6db89f2d2a0bc1c47ff57cead7ce9382b9251576aa57538927781ba66f5d0e38",
+        "identical_bytes": true
+      },
+      "_rels/.rels": {
+        "delivered_sha256": "3a48d9b7bb9f8a6d32810d91792abf721a31c6bfc6df292acb88f1d8542034a1",
+        "rebuilt_sha256": "3a48d9b7bb9f8a6d32810d91792abf721a31c6bfc6df292acb88f1d8542034a1",
+        "identical_bytes": true
+      },
+      "3D/3dmodel.model": {
+        "delivered_sha256": "91c4698184fa8f1bf84518a46b329d025dae352c45640c74c18952b87d049881",
+        "rebuilt_sha256": "91c4698184fa8f1bf84518a46b329d025dae352c45640c74c18952b87d049881",
+        "identical_bytes": true
+      }
+    },
+    "cutlery-v9-mechanism-test.3mf": {
+      "[Content_Types].xml": {
+        "delivered_sha256": "6db89f2d2a0bc1c47ff57cead7ce9382b9251576aa57538927781ba66f5d0e38",
+        "rebuilt_sha256": "6db89f2d2a0bc1c47ff57cead7ce9382b9251576aa57538927781ba66f5d0e38",
+        "identical_bytes": true
+      },
+      "_rels/.rels": {
+        "delivered_sha256": "3a48d9b7bb9f8a6d32810d91792abf721a31c6bfc6df292acb88f1d8542034a1",
+        "rebuilt_sha256": "3a48d9b7bb9f8a6d32810d91792abf721a31c6bfc6df292acb88f1d8542034a1",
+        "identical_bytes": true
+      },
+      "3D/3dmodel.model": {
+        "delivered_sha256": "1974ec69ac01873d6a45591b7559bd4bddb30b5677d119d29dd8bf80e0cf853f",
+        "rebuilt_sha256": "1974ec69ac01873d6a45591b7559bd4bddb30b5677d119d29dd8bf80e0cf853f",
+        "identical_bytes": true
+      }
+    }
+  },
+  "builder_exit_code": 0,
+  "builder_output": "{\n  \"parts_count\": 9,\n  \"collisions_mm3\": {\n    \"folded\": {},\n    \"fork\": {},\n    \"knife\": {},\n    \"spoon\": {}\n  },\n  \"folded_with_cover_bounds_mm\": [\n    [\n      -30.8,\n      -19.0,\n      -8.4\n    ],\n    [\n      27.6,\n      76.6,\n      25.6\n    ]\n  ],\n  \"passes\": true\n}\n"
+}
